@@ -3,7 +3,7 @@ import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 import { ExceptionInterceptor } from './infrastructure/interceptors/exception.interceptor';
-
+//some comment 1
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule);
 
