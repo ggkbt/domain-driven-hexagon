@@ -6,7 +6,7 @@ import { ExceptionInterceptor } from './infrastructure/interceptors/exception.in
 //different comment 1
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule);
-
+//different comment 2
   const options = new DocumentBuilder().build();
 
   const document = SwaggerModule.createDocument(app, options);
